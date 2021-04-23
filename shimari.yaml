@@ -1,0 +1,107 @@
+Control: [2435]
+
+ID:
+  2435: # ID
+    Name: "Test" # Name des Shimaris
+    Description: "Test Beschreibung" # Beschreibung des Shimaris
+    URL: # URLS
+      Avatar: "www.imgur.com/test" # Avatar des Shimaris
+    Data:
+      BasisEnergie: 100 # Angriffe Kosten energie je nach schaden
+      Angriffskosten: [10, 25, 50] #Angriffsskosten pro Stufe -- [1 - Stufe des Angriffs, 10 - Kosten der Energie]
+      Leben: 1000 # HP
+      Schaden: [50, 80, 125] # Schaden in HP je nach Angriffsstufe -- [1 - Stufe des Angriffs, 80 - Schaden in HP]
+      Element: "Psio" # Schadenstyp des Shimari
+      Resistenz: "Elec" #Schadensresitenz gegen Element um 10 SchadensPunkte
+      Seltenheit: 4 # 1 -Normal, 2 - Selten, 3 - Legendär, 4 - Exotisch
+                      # Zeigt die Höchst-Mögliche Seltenheit
+                      # BasisEnergie + 10, Leben + 100, Resistenz + 5
+                      # KEINEN EFFEKT AUF NORMAL!
+  0001:
+    Name: ""
+    Description: ""
+    URL:
+      Avatar: ""
+    Data:
+      BasisEnergie: 0
+      Angriffskosten: []
+      Leben: 0
+      Schaden: []
+      Element: ""
+      Resistenz: ""
+      Seltenheit: 0
+
+
+  6520:
+    Name: "Umaki"
+    Description: ""
+    URL:
+      Avatar: ""
+    Data:
+      BasisEnergie: 100
+      Angriffskosten: [10, 25, 50]
+      Leben: 650
+      Schaden: [50, 113, 240]
+      Element: "Psio"
+      Resistenz: "Eros"
+      Seltenheit: 3
+
+
+  2306:
+    Name: "Fuyukura"
+    Description: ""
+    URL:
+      Avatar: ""
+    Data:
+      BasisEnergie: 120
+      Angriffskosten: [10, 25, 50]
+      Leben: 870
+      Schaden: [24, 78, 150]
+      Element: "Lux"
+      Resistenz: "Psio"
+      Seltenheit: 3
+
+
+  3015:
+    Name: "Nohisa"
+    Description: ""
+    URL:
+      Avatar: ""
+    Data:
+      BasisEnergie: 95
+      Angriffskosten: [8, 30, 45]
+      Leben: 550
+      Schaden: [73, 170, 280]
+      Element: "Eros"
+      Resistenz: "Lux"
+      Seltenheit: 4
+
+
+  7747:
+    Name: "Irinari"
+    Description: ""
+    URL:
+      Avatar: ""
+    Data:
+      BasisEnergie: 105
+      Angriffskosten: [10, 26, 49]
+      Leben: 768
+      Schaden: [49, 115, 233]
+      Element: "Lux"
+      Resistenz: "Elec"
+      Seltenheit: 4
+
+
+  4448:
+    Name: "Rugi"
+    Description: ""
+    URL:
+      Avatar: ""
+    Data:
+      BasisEnergie: 80
+      Angriffskosten: [20, 30, 40]
+      Leben: 800
+      Schaden: [60, 90, 120]
+      Element: "Elec"
+      Resistenz: "Elec"
+      Seltenheit: 2
