@@ -1,36 +1,57 @@
-Control: [2435]
+SONSTIGES:
 
-ID:
+  # BEISPIEL
   2435: # ID
     Name: "Test" # Name des Shimaris
     Description: "Test Beschreibung" # Beschreibung des Shimaris
     URL: # URLS
-      Avatar: ["", "", "", ""] # Avatar des Shimaris -- Sortiert nach Seltenheit
+      Avatar: [ "", "", "", "" ] # Avatar des Shimaris -- Sortiert nach Seltenheit
     Data:
       BasisEnergie: 100 # Angriffe Kosten energie je nach schaden
-      Angriffskosten: [10, 25, 50] #Angriffsskosten pro Stufe -- [1 - Stufe des Angriffs, 10 - Kosten der Energie]
+      Angriffskosten: [ 10, 25, 50 ] #Angriffsskosten pro Stufe -- [1 - Stufe des Angriffs, 10 - Kosten der Energie]
       Leben: 1000 # HP
-      Schaden: [50, 80, 125] # Schaden in HP je nach Angriffsstufe -- [1 - Stufe des Angriffs, 80 - Schaden in HP]
+      Schaden: [ 50, 80, 125 ] # Schaden in HP je nach Angriffsstufe -- [1 - Stufe des Angriffs, 80 - Schaden in HP]
       Element: "Psio" # Schadenstyp des Shimari
       Resistenz: "Elec" #Schadensresitenz gegen Element um 10 SchadensPunkte
       Seltenheit: 4 # 1 -Normal, 2 - Selten, 3 - Legendär, 4 - Exotisch
-                      # Zeigt die Höchst-Mögliche Seltenheit
-                      # BasisEnergie + 10, Leben + 100, Resistenz + 5
-                      # KEINEN EFFEKT AUF NORMAL!
+        # Zeigt die Höchst-Mögliche Seltenheit
+      # BasisEnergie + 10, Leben + 100, Resistenz + 5
+      # KEINEN EFFEKT AUF NORMAL!
+
+  # VORLAGE
   0001:
     Name: ""
     Description: ""
     URL:
-      Avatar: ["", "", "", ""]
+      Avatar: [ "", "", "", "" ]
     Data:
       BasisEnergie: 0
-      Angriffskosten: []
+      Angriffskosten: [ ]
       Leben: 0
-      Schaden: []
+      Schaden: [ ]
       Element: ""
       Resistenz: ""
       Seltenheit: 0
 
+# ------------------------------------------------------------
+
+Control: [6520, 2306, 3015, 7747, 4448, 9463, 5210, 8673]
+
+ID:
+
+  STARTER:
+    Name: "Tabia"
+    Description: "Der Anfänger für alle"
+    URL:
+      Avatar: ["", "", "", ""]
+    Data:
+      BasisEnergie: 125
+      Angriffskosten: [ 10, 35, 100 ]
+      Leben: 700
+      Schaden: [ 50, 110, 300 ]
+      Element: "Lux"
+      Resistenz: "Psio"
+      Seltenheit: 1
 
   6520:
     Name: "Umaki"
@@ -94,7 +115,7 @@ ID:
 
   4448:
     Name: "Rugi"
-    Description: "Er hat "
+    Description: "Er hat ist Elektrisch anziehend."
     URL:
       Avatar: ["", "", "", ""]
     Data:
@@ -105,3 +126,45 @@ ID:
       Element: "Elec"
       Resistenz: "Elec"
       Seltenheit: 2
+
+  9463:
+      Name: "Sakaii"
+      Description: "Gift ist ihr Leben"
+      URL:
+        Avatar: ["", "", "", ""]
+      Data:
+        BasisEnergie: 190
+        Angriffskosten: [20, 60, 100]
+        Leben: 1065
+        Schaden: [11, 69, 83]
+        Element: "Eros"
+        Resistenz: "Psio"
+        Seltenheit: 4
+
+  5210:
+    Name: "Kubo Chy"
+    Description: "Ist sie ein Geist?"
+    URL:
+      Avatar: [ "", "", "", "" ]
+    Data:
+      BasisEnergie: 85
+      Angriffskosten: [5, 13, 37]
+      Leben: 948
+      Schaden: [20, 36, 69]
+      Element: "Lux"
+      Resistenz: "Elec"
+      Seltenheit: 4
+
+  8673:
+    Name: "Obi Kaede"
+    Description: "Eins mit der Energie"
+    URL:
+      Avatar: [ "", "", "", "" ]
+    Data:
+      BasisEnergie: 80
+      Angriffskosten: [5, 8, 13]
+      Leben: 1015
+      Schaden: [19, 26, 34]
+      Element: "Elec"
+      Resistenz: "Eros"
+      Seltenheit: 3
