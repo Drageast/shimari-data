@@ -5,7 +5,7 @@ ID:
     Name: "Test" # Name des Shimaris
     Description: "Test Beschreibung" # Beschreibung des Shimaris
     URL: # URLS
-      Avatar: "www.imgur.com/test" # Avatar des Shimaris
+      Avatar: ["", "", "", ""] # Avatar des Shimaris -- Sortiert nach Seltenheit
     Data:
       BasisEnergie: 100 # Angriffe Kosten energie je nach schaden
       Angriffskosten: [10, 25, 50] #Angriffsskosten pro Stufe -- [1 - Stufe des Angriffs, 10 - Kosten der Energie]
@@ -21,7 +21,7 @@ ID:
     Name: ""
     Description: ""
     URL:
-      Avatar: ""
+      Avatar: ["", "", "", ""]
     Data:
       BasisEnergie: 0
       Angriffskosten: []
@@ -34,9 +34,9 @@ ID:
 
   6520:
     Name: "Umaki"
-    Description: ""
+    Description: "Mächtige Zauberin"
     URL:
-      Avatar: ""
+      Avatar: ["", "", "", ""]
     Data:
       BasisEnergie: 100
       Angriffskosten: [10, 25, 50]
@@ -49,9 +49,9 @@ ID:
 
   2306:
     Name: "Fuyukura"
-    Description: ""
+    Description: "Engel der Lüfte"
     URL:
-      Avatar: ""
+      Avatar: ["", "", "", ""]
     Data:
       BasisEnergie: 120
       Angriffskosten: [10, 25, 50]
@@ -64,9 +64,9 @@ ID:
 
   3015:
     Name: "Nohisa"
-    Description: ""
+    Description: "Teufel unter den Engeln"
     URL:
-      Avatar: ""
+      Avatar: ["", "", "", ""]
     Data:
       BasisEnergie: 95
       Angriffskosten: [8, 30, 45]
@@ -79,9 +79,9 @@ ID:
 
   7747:
     Name: "Irinari"
-    Description: ""
+    Description: "Die schnellste Taube aller Tauben"
     URL:
-      Avatar: ""
+      Avatar: ["", "", "", ""]
     Data:
       BasisEnergie: 105
       Angriffskosten: [10, 26, 49]
@@ -94,9 +94,9 @@ ID:
 
   4448:
     Name: "Rugi"
-    Description: ""
+    Description: "Er hat "
     URL:
-      Avatar: ""
+      Avatar: ["", "", "", ""]
     Data:
       BasisEnergie: 80
       Angriffskosten: [20, 30, 40]
