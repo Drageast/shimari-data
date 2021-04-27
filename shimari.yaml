@@ -3,7 +3,7 @@ SONSTIGES:
   # BEISPIEL
   2435: # ID
     Name: "Test" # Name des Shimaris
-    Description: "Test Beschreibung" # Beschreibung des Shimaris
+    Description: "Test Beschreibung" # Beschreibung des Shimaris # ä = 1, ö = 2, ü = 3
     URL: # URLS
       Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"] # Avatar des Shimaris -- Sortiert nach Seltenheit
     Data:
@@ -41,7 +41,7 @@ ID:
 
   STARTER:
     Name: "Tabia"
-    Description: "Der Anfänger für alle"
+    Description: "Der Anf1nger für alle"
     URL:
       Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
@@ -55,7 +55,7 @@ ID:
 
   6520:
     Name: "Umaki"
-    Description: "Mächtige Zauberin"
+    Description: "M1chtige Zauberin"
     URL:
       Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
@@ -70,7 +70,7 @@ ID:
 
   2306:
     Name: "Fuyukura"
-    Description: "Engel der Lüfte"
+    Description: "Engel der L3fte"
     URL:
       Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
