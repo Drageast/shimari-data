@@ -62,7 +62,7 @@ ID:
       BasisEnergie: 100
       Angriffskosten: [10, 25, 50]
       Leben: 650
-      Schaden: [50, 113, 240]
+      Schaden: [50, 113, 156]
       Element: "Psio"
       Resistenz: "Eros"
       Seltenheit: 3
@@ -75,9 +75,9 @@ ID:
       Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 120
-      Angriffskosten: [10, 25, 50]
+      Angriffskosten: [10, 37, 75]
       Leben: 870
-      Schaden: [24, 78, 150]
+      Schaden: [24, 78, 135]
       Element: "Lux"
       Resistenz: "Psio"
       Seltenheit: 3
@@ -90,9 +90,9 @@ ID:
       Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 95
-      Angriffskosten: [8, 30, 45]
+      Angriffskosten: [10, 50, 87]
       Leben: 550
-      Schaden: [73, 170, 280]
+      Schaden: [65, 95, 113]
       Element: "Eros"
       Resistenz: "Lux"
       Seltenheit: 4
@@ -105,9 +105,9 @@ ID:
       Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 105
-      Angriffskosten: [10, 26, 49]
+      Angriffskosten: [10, 26, 65]
       Leben: 768
-      Schaden: [49, 115, 233]
+      Schaden: [49, 87, 108]
       Element: "Lux"
       Resistenz: "Elec"
       Seltenheit: 4
@@ -119,10 +119,10 @@ ID:
     URL:
       Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
-      BasisEnergie: 80
-      Angriffskosten: [20, 30, 40]
-      Leben: 800
-      Schaden: [60, 90, 120]
+      BasisEnergie: 101
+      Angriffskosten: [20, 65, 100]
+      Leben: 450
+      Schaden: [40, 87, 200]
       Element: "Elec"
       Resistenz: "Elec"
       Seltenheit: 2
@@ -134,9 +134,9 @@ ID:
         Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
       Data:
         BasisEnergie: 190
-        Angriffskosten: [20, 60, 100]
+        Angriffskosten: [32, 54, 200]
         Leben: 1065
-        Schaden: [11, 69, 83]
+        Schaden: [11, 69, 600]
         Element: "Eros"
         Resistenz: "Psio"
         Seltenheit: 4
@@ -161,7 +161,7 @@ ID:
     URL:
       Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
-      BasisEnergie: 80
+      BasisEnergie: 130
       Angriffskosten: [5, 8, 13]
       Leben: 1015
       Schaden: [19, 26, 34]
