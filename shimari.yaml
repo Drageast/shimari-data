@@ -1,37 +1,21 @@
 SONSTIGES:
+  # VORLAGE
 
-  # BEISPIEL
-  2435: # ID
-    Name: "Test" # Name des Shimaris
-    Description: "Test Beschreibung" # Beschreibung des Shimaris # ä = 1, ö = 2, ü = 3
-    URL: # URLS
-      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"] # Avatar des Shimaris -- Sortiert nach Seltenheit
-    Data:
-      BasisEnergie: 100 # Angriffe Kosten energie je nach schaden
-      Angriffskosten: [ 10, 25, 50 ] #Angriffsskosten pro Stufe -- [1 - Stufe des Angriffs, 10 - Kosten der Energie]
-      Leben: 1000 # HP
-      Schaden: [ 50, 80, 125 ] # Schaden in HP je nach Angriffsstufe -- [1 - Stufe des Angriffs, 80 - Schaden in HP]
-      Element: "Psio" # Schadenstyp des Shimari
-      Resistenz: "Elec" #Schadensresitenz gegen Element um 10 SchadensPunkte
-      Seltenheit: 4 # 1 -Normal, 2 - Selten, 3 - Legendär, 4 - Exotisch
+  0001: # ID
+    Name: "" # Name des Shimaris
+    Motto: "" # Motto des Shimaris # ä = 1, ö = 2, ü = 3
+    Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
+    KDTN:
+      Energie: 0 # Angriffe Kosten energie je nach schaden
+      Schaden: [] # Schaden in HP je nach Angriffsstufe -- [1 - Stufe des Angriffs, 80 - Schaden in HP]
+      Kosten: [] # Angriffsskosten pro Stufe -- [1 - Stufe des Angriffs, 10 - Kosten der Energie]
+      Leben: 0 # HP
+      Element: [ "", "" ] # Element[0] Resistenz[1] -- Resitenz um 10 Schadenspunkte
+      Seltenheit: 0 # 1 -Normal, 2 - Selten, 3 - Legendär, 4 - Exotisch
         # Zeigt die Höchst-Mögliche Seltenheit
       # BasisEnergie + 10, Leben + 100, Resistenz + 5
       # KEINEN EFFEKT AUF NORMAL!
 
-  # VORLAGE
-  0001:
-    Name: ""
-    Description: ""
-    URL:
-      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
-    Data:
-      BasisEnergie: 0
-      Angriffskosten: [ ]
-      Leben: 0
-      Schaden: [ ]
-      Element: ""
-      Resistenz: ""
-      Seltenheit: 0
 
 # ------------------------------------------------------------
 
@@ -41,130 +25,108 @@ ID:
 
   STARTER:
     Name: "Tabia"
-    Description: "Der Anf1nger für alle"
-    URL:
-      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
-    Data:
-      BasisEnergie: 125
-      Angriffskosten: [ 10, 35, 100 ]
-      Leben: 700
-      Schaden: [ 50, 110, 300 ]
-      Element: "Lux"
-      Resistenz: "Psio"
+    Motto: "Ich bin der Perfekte Starter!"
+    Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
+    KDTN:
+      Energie: 149
+      Schaden: [ 43, 77, 164 ]
+      Kosten: [ 30, 52, 110 ]
+      Leben: 852
+      Element: [ "Lux", "Psio" ]
       Seltenheit: 1
 
   6520:
-    Name: "Umaki"
-    Description: "M1chtige Zauberin"
-    URL:
-      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
-    Data:
-      BasisEnergie: 100
-      Angriffskosten: [10, 25, 50]
-      Leben: 650
-      Schaden: [50, 113, 156]
-      Element: "Psio"
-      Resistenz: "Eros"
+    Name: "Umakii"
+    Motto: "Nichts und niemand ist so stark wie ich!"
+    Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
+    KDTN:
+      Energie: 143
+      Schaden: [ 52, 100, 192 ]
+      Kosten: [ 29, 48, 108 ]
+      Leben: 777
+      Element: [ "Psio", "Eros" ]
       Seltenheit: 3
-
 
   2306:
-    Name: "Fuyukura"
-    Description: "Engel der L3fte"
-    URL:
-      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
-    Data:
-      BasisEnergie: 120
-      Angriffskosten: [10, 37, 75]
-      Leben: 870
-      Schaden: [24, 78, 135]
-      Element: "Lux"
-      Resistenz: "Psio"
+    Name: "Fuyukurai"
+    Motto: "Ich bin DER Engel unter den Engeln"
+    Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
+    KDTN:
+      Energie: 170
+      Schaden: [ 49, 88, 174 ]
+      Kosten: [ 34, 60, 125 ]
+      Leben: 972
+      Element: [ "Lux", "Psio" ]
       Seltenheit: 3
-
 
   3015:
     Name: "Nohisa"
-    Description: "Teufel unter den Engeln"
-    URL:
-      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
-    Data:
-      BasisEnergie: 95
-      Angriffskosten: [10, 50, 87]
-      Leben: 550
-      Schaden: [65, 95, 113]
-      Element: "Eros"
-      Resistenz: "Lux"
-      Seltenheit: 4
-
+    Motto: "Ich bin der Teufel unter den Engeln..."
+    Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
+    KDTN:
+      Energie: 170
+      Schaden: [ 37, 66, 141 ]
+      Kosten: [ 26, 45, 94 ]
+      Leben: 972
+      Element: [ "Eros", "Lux" ]
+      Seltenheit: 3
 
   7747:
     Name: "Irinari"
-    Description: "Die schnellste Taube aller Tauben"
-    URL:
-      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
-    Data:
-      BasisEnergie: 105
-      Angriffskosten: [10, 26, 65]
-      Leben: 768
-      Schaden: [49, 87, 108]
-      Element: "Lux"
-      Resistenz: "Elec"
+    Motto: "Ich bin der K2nig der L3fte!"
+    Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
+    KDTN:
+      Energie: 150
+      Schaden: [ 51, 97, 172 ]
+      Kosten: [ 26, 55, 113 ]
+      Leben: 914
+      Element: [ "Lux", "Elec" ]
       Seltenheit: 4
 
-
   4448:
-    Name: "Rugi"
-    Description: "Er ist Elektrisch anziehend"
-    URL:
-      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
-    Data:
-      BasisEnergie: 101
-      Angriffskosten: [20, 65, 100]
-      Leben: 450
-      Schaden: [40, 87, 200]
-      Element: "Elec"
-      Resistenz: "Elec"
-      Seltenheit: 2
+    Name: "Izuwagi"
+    Motto: "Over 9000!!!"
+    Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
+    KDTN:
+      Energie: 84
+      Schaden: [ 24, 43, 92 ]
+      Kosten: [ 17, 29, 62 ]
+      Leben: 477
+      Element: [ "Lux", "Elec" ]
+      Seltenheit: 4
 
   9463:
-      Name: "Sakaii"
-      Description: "Gift ist ihr Leben"
-      URL:
-        Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
-      Data:
-        BasisEnergie: 190
-        Angriffskosten: [32, 54, 200]
-        Leben: 1065
-        Schaden: [11, 69, 600]
-        Element: "Eros"
-        Resistenz: "Psio"
-        Seltenheit: 4
+    Name: "Sakaii"
+    Motto: "Gift ist alles und nichts..."
+    Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
+    KDTN:
+      Energie: 176
+      Schaden: [ 37, 90, 177 ]
+      Kosten: [ 35, 62, 130 ]
+      Leben: 1016
+      Element: [ "Eros", "Psio" ]
+      Seltenheit: 4
 
   5210:
     Name: "Kubo Chy"
-    Description: "Ist sie ein Geist?"
-    URL:
-      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
-    Data:
-      BasisEnergie: 85
-      Angriffskosten: [5, 13, 37]
-      Leben: 948
-      Schaden: [20, 36, 69]
-      Element: "Lux"
-      Resistenz: "Elec"
+    Motto: "Bin ich ein Geist? Oder nicht?"
+    Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
+    KDTN:
+      Energie: 136
+      Schaden: [ 39, 70, 149 ]
+      Kosten: [ 27, 48, 100 ]
+      Leben: 774
+      Element: [ "Lux", "Elec" ]
       Seltenheit: 4
 
   8673:
     Name: "Obi Kaede"
-    Description: "Eins mit der Energie"
-    URL:
-      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
-    Data:
-      BasisEnergie: 130
-      Angriffskosten: [5, 8, 13]
-      Leben: 1015
-      Schaden: [19, 26, 34]
-      Element: "Elec"
-      Resistenz: "Eros"
-      Seltenheit: 3
+    Motto: "Die Energie ist mit mir und ich bin mit der Energie..."
+    Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
+    KDTN:
+      Energie: 105
+      Schaden: [ 31, 55, 117 ]
+      Kosten: [ 21, 37, 78 ]
+      Leben: 609
+      Element: [ "Lux", "Elec" ]
+      Seltenheit: 4
