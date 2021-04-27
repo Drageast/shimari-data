@@ -5,7 +5,7 @@ SONSTIGES:
     Name: "Test" # Name des Shimaris
     Description: "Test Beschreibung" # Beschreibung des Shimaris
     URL: # URLS
-      Avatar: [ "", "", "", "" ] # Avatar des Shimaris -- Sortiert nach Seltenheit
+      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"] # Avatar des Shimaris -- Sortiert nach Seltenheit
     Data:
       BasisEnergie: 100 # Angriffe Kosten energie je nach schaden
       Angriffskosten: [ 10, 25, 50 ] #Angriffsskosten pro Stufe -- [1 - Stufe des Angriffs, 10 - Kosten der Energie]
@@ -23,7 +23,7 @@ SONSTIGES:
     Name: ""
     Description: ""
     URL:
-      Avatar: [ "", "", "", "" ]
+      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 0
       Angriffskosten: [ ]
@@ -43,7 +43,7 @@ ID:
     Name: "Tabia"
     Description: "Der Anfänger für alle"
     URL:
-      Avatar: ["", "", "", ""]
+      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 125
       Angriffskosten: [ 10, 35, 100 ]
@@ -57,7 +57,7 @@ ID:
     Name: "Umaki"
     Description: "Mächtige Zauberin"
     URL:
-      Avatar: ["", "", "", ""]
+      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 100
       Angriffskosten: [10, 25, 50]
@@ -72,7 +72,7 @@ ID:
     Name: "Fuyukura"
     Description: "Engel der Lüfte"
     URL:
-      Avatar: ["", "", "", ""]
+      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 120
       Angriffskosten: [10, 25, 50]
@@ -87,7 +87,7 @@ ID:
     Name: "Nohisa"
     Description: "Teufel unter den Engeln"
     URL:
-      Avatar: ["", "", "", ""]
+      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 95
       Angriffskosten: [8, 30, 45]
@@ -102,7 +102,7 @@ ID:
     Name: "Irinari"
     Description: "Die schnellste Taube aller Tauben"
     URL:
-      Avatar: ["", "", "", ""]
+      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 105
       Angriffskosten: [10, 26, 49]
@@ -115,9 +115,9 @@ ID:
 
   4448:
     Name: "Rugi"
-    Description: "Er hat ist Elektrisch anziehend."
+    Description: "Er ist Elektrisch anziehend"
     URL:
-      Avatar: ["", "", "", ""]
+      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 80
       Angriffskosten: [20, 30, 40]
@@ -131,7 +131,7 @@ ID:
       Name: "Sakaii"
       Description: "Gift ist ihr Leben"
       URL:
-        Avatar: ["", "", "", ""]
+        Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
       Data:
         BasisEnergie: 190
         Angriffskosten: [20, 60, 100]
@@ -145,7 +145,7 @@ ID:
     Name: "Kubo Chy"
     Description: "Ist sie ein Geist?"
     URL:
-      Avatar: [ "", "", "", "" ]
+      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 85
       Angriffskosten: [5, 13, 37]
@@ -159,7 +159,7 @@ ID:
     Name: "Obi Kaede"
     Description: "Eins mit der Energie"
     URL:
-      Avatar: [ "", "", "", "" ]
+      Avatar: ["https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg"]
     Data:
       BasisEnergie: 80
       Angriffskosten: [5, 8, 13]
