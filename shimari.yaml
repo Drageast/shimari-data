@@ -88,10 +88,10 @@ ID:
     Motto: "Over 9000!!!"
     Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
     KDTN:
-      Energie: 84
-      Schaden: [ 24, 43, 92 ]
-      Kosten: [ 17, 29, 62 ]
-      Leben: 477
+      Energie: 124
+      Schaden: [ 26, 58, 125 ]
+      Kosten: [ 25, 44, 91 ]
+      Leben: 755
       Element: [ "Lux", "Elec" ]
       Seltenheit: 4
 
