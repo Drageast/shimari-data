@@ -28,10 +28,10 @@ ID:
     Motto: "Ich bin der Perfekte Starter!"
     Avatar: [ "https://i.imgur.com/L1MFNxJ.jpg" ]
     KDTN:
-      Energie: 149
-      Schaden: [ 43, 77, 164 ]
-      Kosten: [ 30, 52, 110 ]
-      Leben: 852
+      Energie: 287
+      Schaden: [ 43, 90, 227 ]
+      Kosten: [ 41, 106, 215 ]
+      Leben: 685
       Element: [ "Lux", "Psio" ]
       Seltenheit: 1
 
@@ -40,10 +40,10 @@ ID:
     Motto: "Nichts und niemand ist so stark wie ich!"
     Avatar: [ "https://i.imgur.com/haKwfJr.jpg", "https://i.imgur.com/JLgX8mM.jpg", "https://i.imgur.com/nGuVDX2.jpg" ]
     KDTN:
-      Energie: 143
-      Schaden: [ 52, 100, 192 ]
-      Kosten: [ 29, 48, 108 ]
-      Leben: 777
+      Energie: 306
+      Schaden: [ 46, 97, 161 ]
+      Kosten: [ 69, 146, 266 ]
+      Leben: 749
       Element: [ "Psio", "Eros" ]
       Seltenheit: 3
 
@@ -52,10 +52,10 @@ ID:
     Motto: "Ich bin DER Engel unter den Engeln"
     Avatar: [ "https://i.imgur.com/djyDXb5.jpg", "https://i.imgur.com/dTRWOI5.jpg", "https://i.imgur.com/EFT7HEN.jpg" ]
     KDTN:
-      Energie: 170
-      Schaden: [ 49, 88, 174 ]
-      Kosten: [ 34, 60, 125 ]
-      Leben: 972
+      Energie: 329
+      Schaden: [ 49, 103, 293 ]
+      Kosten: [ 52, 139, 246 ]
+      Leben: 562
       Element: [ "Lux", "Psio" ]
       Seltenheit: 3
 
@@ -64,10 +64,10 @@ ID:
     Motto: "Ich bin der Teufel unter den Engeln..."
     Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
     KDTN:
-      Energie: 170
-      Schaden: [ 37, 66, 141 ]
-      Kosten: [ 26, 45, 94 ]
-      Leben: 972
+      Energie: 252
+      Schaden: [ 37, 78, 130 ]
+      Kosten: [ 76, 130, 228 ]
+      Leben: 957
       Element: [ "Eros", "Lux" ]
       Seltenheit: 3
 
@@ -76,10 +76,10 @@ ID:
     Motto: "Ich bin der K2nig der L3fte!"
     Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
     KDTN:
-      Energie: 150
-      Schaden: [ 51, 97, 172 ]
-      Kosten: [ 26, 55, 113 ]
-      Leben: 914
+      Energie: 282
+      Schaden: [ 41, 86, 144 ]
+      Kosten: [ 75, 144, 249 ]
+      Leben: 883
       Element: [ "Lux", "Elec" ]
       Seltenheit: 4
 
@@ -88,10 +88,10 @@ ID:
     Motto: "Over 9000!!!"
     Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
     KDTN:
-      Energie: 124
-      Schaden: [ 26, 58, 125 ]
-      Kosten: [ 25, 44, 91 ]
-      Leben: 755
+      Energie: 173
+      Schaden: [ 26, 55, 178 ]
+      Kosten: [ 18, 59, 115 ]
+      Leben: 1233
       Element: [ "Lux", "Elec" ]
       Seltenheit: 4
 
@@ -100,10 +100,10 @@ ID:
     Motto: "Gift ist alles und nichts..."
     Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
     KDTN:
-      Energie: 176
-      Schaden: [ 37, 90, 177 ]
-      Kosten: [ 35, 62, 130 ]
-      Leben: 1016
+      Energie: 250
+      Schaden: [ 37, 78, 130 ]
+      Kosten: [ 56, 117, 214 ]
+      Leben: 928
       Element: [ "Eros", "Psio" ]
       Seltenheit: 4
 
@@ -112,10 +112,10 @@ ID:
     Motto: "Bin ich ein Geist? Oder nicht?"
     Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
     KDTN:
-      Energie: 136
-      Schaden: [ 39, 70, 149 ]
-      Kosten: [ 27, 48, 100 ]
-      Leben: 774
+      Energie: 259
+      Schaden: [ 39, 82, 202 ]
+      Kosten: [ 29, 101, 185 ]
+      Leben: 785
       Element: [ "Lux", "Elec" ]
       Seltenheit: 4
 
@@ -124,9 +124,21 @@ ID:
     Motto: "Die Energie ist mit mir und ich bin mit der Energie..."
     Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
     KDTN:
-      Energie: 105
-      Schaden: [ 31, 55, 117 ]
-      Kosten: [ 21, 37, 78 ]
-      Leben: 609
+      Energie: 206
+      Schaden: [ 31, 65, 108 ]
+      Kosten: [ 46, 98, 178 ]
+      Leben: 1117
       Element: [ "Lux", "Elec" ]
       Seltenheit: 4
+
+  7596:
+    Name: "Aarinu"
+    Motto: "Essen hat auch Gefühle!"
+    Avatar: [ "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg", "https://i.imgur.com/quQWMYr.jpg" ]
+    KDTN:
+      Energie: 240
+      Schaden: [ 36, 76, 126 ]
+      Kosten: [ 65, 131, 221 ]
+      Leben: 994
+      Element: [ "Psio", "Elec" ]
+      Seltenheit: 3
