@@ -2,9 +2,9 @@ import random
 
 
 def balance():
-    BasisEnergie = input("BasisEnergie (Range 0 - 75):")
+    BasisEnergie = input("Mana (Range 0 - 75):")
     if int(BasisEnergie) == 0:
-        BasisEnergie = random.randint(40, 75)
+        BasisEnergie = random.randint(25, 75)
     BasisEnergie = int(BasisEnergie)
 
     BASE = 1250

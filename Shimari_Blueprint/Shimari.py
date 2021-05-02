@@ -147,26 +147,21 @@ class ShimariBASE:
             if self.Rarity == 1:
                 self.Health = (int(self.Data.Leben + int(YAML.GET("Update_Stats", 1)[0])))
                 self.Mana = (int(self.Data.Mana + int(YAML.GET("Update_Stats", 1)[1])))
-                print("Stufe 1")
                 return
             elif self.Rarity == 2:
                 self.Health = (int(self.Data.Leben + int(YAML.GET("Update_Stats", 2)[0])))
                 self.Mana = (int(self.Data.Mana + int(YAML.GET("Update_Stats", 2)[1])))
-                print("Stufe 2")
                 return
             elif self.Rarity == 3:
                 self.Health = (int(self.Data.Leben + int(YAML.GET("Update_Stats", 3)[0])))
                 self.Mana = (int(self.Data.Mana + int(YAML.GET("Update_Stats", 3)[1])))
-                print("Stufe 3")
                 return
             elif self.Rarity == 4:
                 self.Health = (int(self.Data.Leben + int(YAML.GET("Update_Stats", 4)[0])))
                 self.Mana = (int(self.Data.Mana + int(YAML.GET("Update_Stats", 4)[1])))
-                print("Stufe 4")
                 return
 
         else:
-            print("ELSE")
             return
 
     def tuple_Shimari(self):
@@ -179,42 +174,30 @@ class Shimari(ShimariBASE):
 
     @staticmethod
     def fight(Shimari1: ShimariBASE, Shimari2: ShimariBASE, Attack: int):
-        Shimari1.update_Stats()
-        Shimari2.update_Stats()
+        Chance = random.randint(1, 10)
 
-        if int(Shimari2["Health"]) <= 0:
-            return False
 
-        elif int(Shimari1["Mana"]) < 1:
-            return False
+        bonus = YAML.GET("Bonus_Stats", "Resistance") if Shimari1.Element == Shimari2.Resistance else \
+            (YAML.GET("Bonus_Stats", 1) if Attack == 1 else (
+                YAML.GET("Bonus_Stats", 2) if Attack == 2 else YAML.GET("Bonus_Stats", 3)))
+
+        Health = int(Shimari2["Health"]) - (int(Shimari1["Damage"][Attack - 1]) + int(bonus))
+
+        Energie = int(Shimari1["Mana"]) - int(Shimari1["Cost"][Attack - 1])
+
+
+        Shimari1["Mana"] = Energie
+
+        if Chance <= int(Shimari2.Rarity):
+            data = Object()
+            data.damage = "Geblockt!"
+
+            return data
 
         else:
 
-            Chance = random.randint(1, 100)
+            Shimari2["Health"] = Health
+            data = Object()
+            data.damage = int(Shimari1["Damage"][Attack - 1]) + int(bonus)
 
-
-            bonus = YAML.GET("Bonus_Stats", "Resistance") if Shimari1.Element == Shimari2.Resistance else \
-                (YAML.GET("Bonus_Stats", 1) if Attack == 1 else (
-                    YAML.GET("Bonus_Stats", 2) if Attack == 2 else YAML.GET("Bonus_Stats", 3)))
-
-            Health = int(Shimari2["Health"]) - (int(Shimari1["Damage"][Attack - 1]) + int(bonus))
-
-            Energie = int(Shimari1["Mana"]) - int(Shimari1["Cost"][Attack - 1])
-
-            if Chance <= YAML.GET("Failure_Rate", "Chance"):
-                Shimari1["Mana"] = Energie
-
-                data = Object()
-                data.damage = "0, Geblockt!"
-
-                return data
-
-            else:
-
-                Shimari2["Health"] = Health
-                Shimari1["Mana"] = Energie
-
-                data = Object()
-                data.damage = int(Shimari1["Damage"][Attack - 1]) + int(bonus)
-
-                return data
+            return data
