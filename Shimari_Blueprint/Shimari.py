@@ -139,7 +139,7 @@ class ShimariBASE:
         if self.Rarity == 1:
             bonus = YAML.GET("Random_Energie", "Bonus")[0]
 
-        self.Energie += int(rnum + bonus)
+        self.Mana += int(rnum + bonus)
 
     def update_Stats(self):
         print(self.Health, self.Data.Leben)

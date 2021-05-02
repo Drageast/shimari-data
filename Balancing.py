@@ -25,7 +25,7 @@ def balance():
 
 
     print(f"ID: {ID}\n\n"
-          f"Energie: {BasisEnergie}\n"
+          f"Mana: {BasisEnergie}\n"
           f"Schaden: [ {Damage1}, {Damage2}, {Damage3} ]\n"
           f"Kosten: [ {Cost1}, {Cost2}, {Cost3} ]\n"
           f"Leben: {Health}"
