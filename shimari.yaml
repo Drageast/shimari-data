@@ -11,10 +11,8 @@ SONSTIGES:
       Kosten: [] # Angriffsskosten pro Stufe -- [1 - Stufe des Angriffs, 10 - Kosten der Energie]
       Leben: 0 # HP
       Element: [ "", "" ] # Element[0] Resistenz[1] -- Resitenz um 10 Schadenspunkte
-      Seltenheit: 0 # 1 -Normal, 2 - Selten, 3 - Legendär, 4 - Exotisch
-        # Zeigt die Höchst-Mögliche Seltenheit
-      # BasisEnergie + 10, Leben + 100, Resistenz + 5
-      # KEINEN EFFEKT AUF NORMAL!
+      Seltenheit: 0 # 1 -Normal, 2 - Selten, 3 - Legendär, 4 - Exotisch -- Zeigt die Höchst-Mögliche Seltenheit
+    Legacy: "" # Reihe der Erscheinung
 
 
 # ------------------------------------------------------------
@@ -34,6 +32,7 @@ ID:
       Leben: 129
       Element: [ "Lux", "Psio" ]
       Seltenheit: 1
+    Legacy: "Classic"
 
   6520:
     Name: "Umakii"
@@ -46,6 +45,7 @@ ID:
       Leben: 111
       Element: [ "Psio", "Eros" ]
       Seltenheit: 3
+    Legacy: "Classic"
 
   2306:
     Name: "Fuyukurai"
@@ -58,6 +58,7 @@ ID:
       Leben: 116
       Element: [ "Lux", "Psio" ]
       Seltenheit: 3
+    Legacy: "Classic"
 
   3015:
     Name: "Nohisa"
@@ -70,6 +71,7 @@ ID:
       Leben: 175
       Element: [ "Eros", "Lux" ]
       Seltenheit: 3
+    Legacy: "Classic"
 
   7747:
     Name: "Irinari"
@@ -82,6 +84,7 @@ ID:
       Leben: 137
       Element: [ "Lux", "Elec" ]
       Seltenheit: 4
+    Legacy: "Classic"
 
   4448:
     Name: "Izuwagi"
@@ -94,6 +97,7 @@ ID:
       Leben: 120
       Element: [ "Lux", "Elec" ]
       Seltenheit: 4
+    Legacy: "Classic"
 
   9463:
     Name: "Sakaii"
@@ -106,6 +110,7 @@ ID:
       Leben: 101
       Element: [ "Eros", "Psio" ]
       Seltenheit: 4
+    Legacy: "Classic"
 
   5210:
     Name: "Kubo Chy"
@@ -118,6 +123,7 @@ ID:
       Leben: 100
       Element: [ "Lux", "Elec" ]
       Seltenheit: 4
+    Legacy: "Classic"
 
   8673:
     Name: "Obi Kaede"
@@ -130,6 +136,7 @@ ID:
       Leben: 141
       Element: [ "Lux", "Elec" ]
       Seltenheit: 4
+    Legacy: "Classic"
 
   7596:
     Name: "Aarinu"
@@ -142,3 +149,4 @@ ID:
       Leben: 155
       Element: [ "Psio", "Elec" ]
       Seltenheit: 3
+    Legacy: "Classic"
