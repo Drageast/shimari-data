@@ -16,8 +16,8 @@ SONSTIGES:
 
 
 # ------------------------------------------------------------
-
-Control: [6520, 2306, 3015, 7747, 4448, 9463, 5210, 8673, 7596]
+          # Classic                                           # Tate no Yusha no Nariagari
+Control: [6520, 2306, 3015, 7747, 4448, 9463, 5210, 8673, 7596, 3418, 7142, 4353]
 
 ID:
 
@@ -150,3 +150,46 @@ ID:
       Element: [ "Psio", "Elec" ]
       Seltenheit: 3
     Legacy: "Classic"
+
+
+  # Tate no Yusha no Nariagari
+
+
+  3418:
+    Name: "Maaya Uchida"
+    Motto: "Recht und Ordnung!"
+    Avatar: [ "https://i.imgur.com/YD12bqa.jpg", "https://i.imgur.com/nfJvGWU.jpg", "https://i.imgur.com/qgP0q2z.jpg", "https://i.imgur.com/HkQxtIR.jpg" ]
+    KDTN:
+      Mana: 78
+      Schaden: [ 19, 26, 39 ]
+      Kosten: [ 27, 39, 51 ]
+      Leben: 88
+      Element: [ "Aquui", "Eros" ]
+      Seltenheit: 4
+    Legacy: "Tate no Yusha no Nariagari"
+
+  7142:
+    Name: "Rina Hidaka"
+    Motto: "Uuuiii"
+    Avatar: [ "https://i.imgur.com/PFilSem.jpg", "https://i.imgur.com/iwUSq5S.jpg", "https://i.imgur.com/V028kCR.jpg", "https://i.imgur.com/O9Qtfxs.jpg" ]
+    KDTN:
+      Mana: 90
+      Schaden: [ 22, 30, 45 ]
+      Kosten: [ 31, 45, 58 ]
+      Leben: 74
+      Element: [ "Lux", "Aquui" ]
+      Seltenheit: 4
+    Legacy: "Tate no Yusha no Nariagari"
+
+  4353:
+    Name: "Raphtalia"
+    Motto: "Ich bin das Schwert meines Meisters."
+    Avatar: [ "https://i.imgur.com/K2owOjW.jpg", "https://i.imgur.com/vWLcsFz.jpg", "https://i.imgur.com/9QBQAh7.jpg", "https://i.imgur.com/3cmifiq.jpg" ]
+    KDTN:
+      Mana: 76
+      Schaden: [ 19, 25, 38 ]
+      Kosten: [ 27, 38, 49 ]
+      Leben: 90
+      Element: [ "Manaq", "Manaq" ]
+      Seltenheit: 4
+    Legacy: "Tate no Yusha no Nariagari"
