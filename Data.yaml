@@ -3,6 +3,7 @@ Balancing:
   Fight:
     Subtract: [0.05, 0.25, 0.5]
     Animus: [10, 35]
+    Block: [0.20]
 
     Elements:
       Res: -6
