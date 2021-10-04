@@ -27,7 +27,7 @@ ID:
     Avatar: [ "https://i.imgur.com/L1MFNxJ.jpg" ]
     KDTN:
       Mana: 56
-      Schaden: [ 14, 18, 28 ]
+      Schaden: [ 14, 18, 2800 ]
       Kosten: [ 20, 28, 36 ]
       Leben: 129
       Element: [ "Lux", "Psio" ]
